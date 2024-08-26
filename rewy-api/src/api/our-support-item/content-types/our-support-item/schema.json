@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_support_items",
+  "info": {
+    "singularName": "our-support-item",
+    "pluralName": "our-support-items",
+    "displayName": "our-support-item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "supportItemsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-support-item.image"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "supportCardList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-support-card.list"
+    }
+  }
+}

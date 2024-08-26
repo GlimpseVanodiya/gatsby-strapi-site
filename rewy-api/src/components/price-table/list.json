@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_price_table_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconOne": {
+      "type": "string",
+      "required": true,
+      "default": "bx bx-check"
+    },
+    "iconTwo": {
+      "type": "string",
+      "default": "bx bx-check",
+      "required": true
+    },
+    "iconThree": {
+      "type": "string",
+      "default": "bx bx-check",
+      "required": true
+    },
+    "iconFour": {
+      "type": "string",
+      "default": "bx bx-check",
+      "required": true
+    }
+  }
+}
